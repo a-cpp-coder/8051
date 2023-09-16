@@ -1,0 +1,55 @@
+C51 COMPILER V9.01   NOT_SURE                                                              09/16/2023 23:20:15 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE NOT_SURE
+OBJECT MODULE PLACED IN not_sure.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE not_sure.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<reg51.h>
+   2          
+   3          
+   4          sbit led = P2 ^ 0; // led at PORT 2 pin 0
+   5          
+   6          void Delay(void); // Delay function declaration
+   7          
+   8          void main() // main function
+   9          {
+  10   1        led = 0; //output PORT pin
+  11   1      
+  12   1        while (1) // infinite loop
+  13   1        {
+  14   2          led = 1; // LED ON
+  15   2          Delay();
+  16   2          led = 0; // LED OFF
+  17   2          Delay();
+  18   2        }
+  19   1      }
+  20          
+  21          void Delay(void) // delay function
+  22          {
+  23   1        int j;
+  24   1        int i;
+  25   1      
+  26   1        for (i = 0; i < 10; i++)
+  27   1        {
+  28   2          for (j = 0; j < 10000; j++)
+  29   2          {
+  30   3          }
+  31   2        }
+  32   1      }                                
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     43    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
