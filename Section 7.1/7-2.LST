@@ -1,0 +1,34 @@
+C51 COMPILER V9.01   7_2                                                                   09/19/2023 17:19:12 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE 7_2
+OBJECT MODULE PLACED IN 7-2.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE 7-2.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          // A program to send hex values for ASCII characters of 012345ABCD to port P1
+   2          #include <reg51.h>
+   3          void main(void)
+   4          {
+   5   1              unsigned char mynum[] = "0123456789ABCDE";      // YEs
+   6   1              unsigned char z;
+   7   1              for(z = 0; z <= 15; z++){
+   8   2                      P1 = mynum[z];
+   9   2              }
+  10   1      }
+  11                  
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     33    ----
+   CONSTANT SIZE    =     16    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----      16
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
