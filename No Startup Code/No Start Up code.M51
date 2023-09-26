@@ -1,15 +1,15 @@
-BL51 BANKED LINKER/LOCATER V6.22                                                        09/26/2023  13:58:59  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22                                                        09/26/2023  15:08:26  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
-C:\KEIL\C51\BIN\BL51.EXE test.obj TO No Start Up code
+C:\KEIL\C51\BIN\BL51.EXE just_code.obj TO No Start Up code
 
 
 INPUT MODULES INCLUDED:
-  test.obj (TEST)
+  just_code.obj (JUST_CODE)
 
 
-LINK MAP OF MODULE:  No Start Up code (TEST)
+LINK MAP OF MODULE:  No Start Up code (JUST_CODE)
 
 
             TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
@@ -19,23 +19,23 @@ LINK MAP OF MODULE:  No Start Up code (TEST)
             REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
 
             * * * * * * *   C O D E   M E M O R Y   * * * * * * *
-            CODE    0000H     0009H     ABSOLUTE     
+            CODE    0000H     0008H     ABSOLUTE     
 
 
 
-SYMBOL TABLE OF MODULE:  No Start Up code (TEST)
+SYMBOL TABLE OF MODULE:  No Start Up code (JUST_CODE)
 
   VALUE           TYPE          NAME
   ----------------------------------
 
-  -------         MODULE        TEST
-  C:0004H         SYMBOL        AGAIN
-  C:0000H         LINE#         3
-  C:0002H         LINE#         4
-  C:0004H         LINE#         5
-  C:0006H         LINE#         6
-  C:0008H         LINE#         7
-  -------         ENDMOD        TEST
+  -------         MODULE        JUST_CODE
+  C:0000H         LINE#         5
+  C:0002H         LINE#         6
+  C:0003H         LINE#         8
+  C:0004H         LINE#         10
+  C:0005H         LINE#         12
+  C:0007H         LINE#         14
+  -------         ENDMOD        JUST_CODE
 
-Program Size: data=8.0 xdata=0 code=9
+Program Size: data=8.0 xdata=0 code=8
 LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
