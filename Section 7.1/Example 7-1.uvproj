@@ -345,11 +345,14 @@
       <Groups>
         <Group>
           <GroupName>Source Group 1</GroupName>
+        </Group>
+        <Group>
+          <GroupName>Source Group 3</GroupName>
           <Files>
             <File>
-              <FileName>7-1.c</FileName>
+              <FileName>7-3.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\7-1.c</FilePath>
+              <FilePath>.\7-3.c</FilePath>
             </File>
           </Files>
         </Group>
