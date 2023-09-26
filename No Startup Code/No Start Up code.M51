@@ -1,0 +1,41 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        09/26/2023  13:58:59  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE test.obj TO No Start Up code
+
+
+INPUT MODULES INCLUDED:
+  test.obj (TEST)
+
+
+LINK MAP OF MODULE:  No Start Up code (TEST)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0009H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  No Start Up code (TEST)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        TEST
+  C:0004H         SYMBOL        AGAIN
+  C:0000H         LINE#         3
+  C:0002H         LINE#         4
+  C:0004H         LINE#         5
+  C:0006H         LINE#         6
+  C:0008H         LINE#         7
+  -------         ENDMOD        TEST
+
+Program Size: data=8.0 xdata=0 code=9
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
