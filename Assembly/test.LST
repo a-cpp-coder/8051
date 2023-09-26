@@ -1,0 +1,32 @@
+A51 MACRO ASSEMBLER  TEST                                                                 09/26/2023 13:51:28 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.02
+OBJECT MODULE PLACED IN test.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE test.s SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     ;this program adds value 3 to the ACC ten times
+                       2     
+0000 7400              3                             MOV             A, #0           ;A=0, clear ACC
+0002 7A0A              4                             MOV             R2, #10         ;load counter R2 = 10
+0004 2403              5     AGAIN:          ADD     A, #03          ;add 03 to ACC
+0006 DAFC              6                             DJNZ    R2, AGAIN       ;repeat until R2=0(10 times)
+0008 FD                7                             MOV     R5, A           ;save A in R5
+                       8                             END
+A51 MACRO ASSEMBLER  TEST                                                                 09/26/2023 13:51:28 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+AGAIN. . . . . . .  C ADDR   0004H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
