@@ -1,0 +1,5 @@
+ADD intstruction - Addressing modes
+Immediate
+Register
+Direct
+RegisterIndirect
