@@ -1,0 +1,8 @@
+*.plg
+*.LST
+*.OBJ
+
+/*.plg
+/*.lnp
+/*.LST
+/*.OBJ
