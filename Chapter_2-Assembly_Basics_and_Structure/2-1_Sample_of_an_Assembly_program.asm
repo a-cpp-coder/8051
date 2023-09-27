@@ -7,5 +7,4 @@
     ADD A, R7
 
     ADD A, #12H
-HERE: SJMP HERE     ; A LOOP
     END

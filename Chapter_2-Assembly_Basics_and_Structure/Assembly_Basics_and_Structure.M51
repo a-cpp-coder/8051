@@ -1,4 +1,4 @@
-BL51 BANKED LINKER/LOCATER V6.22                                                        09/27/2023  15:33:27  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22                                                        09/27/2023  16:05:25  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
@@ -19,7 +19,7 @@ LINK MAP OF MODULE:  Assembly_Basics_and_Structure (2_1_SAMPLE_OF_AN_ASSEMBLY_PR
             REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
 
             * * * * * * *   C O D E   M E M O R Y   * * * * * * *
-            CODE    0000H     000CH     ABSOLUTE     
+            CODE    0000H     000AH     ABSOLUTE     
 
 
 
@@ -29,15 +29,13 @@ SYMBOL TABLE OF MODULE:  Assembly_Basics_and_Structure (2_1_SAMPLE_OF_AN_ASSEMBL
   ----------------------------------
 
   -------         MODULE        2_1_SAMPLE_OF_AN_ASSEMBLY_PROGRAM
-  C:000AH         SYMBOL        HERE
   C:0000H         LINE#         2
   C:0002H         LINE#         3
   C:0004H         LINE#         5
   C:0006H         LINE#         6
   C:0007H         LINE#         7
   C:0008H         LINE#         9
-  C:000AH         LINE#         10
   -------         ENDMOD        2_1_SAMPLE_OF_AN_ASSEMBLY_PROGRAM
 
-Program Size: data=8.0 xdata=0 code=12
+Program Size: data=8.0 xdata=0 code=10
 LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
