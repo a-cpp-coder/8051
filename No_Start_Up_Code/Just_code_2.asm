@@ -1,0 +1,16 @@
+// A Time to code
+
+MOV A, #23H
+MOV R0, 
+MOV R1, #1FH
+MOV R2, #2BH
+MOV B, #3CH
+MOV R7, #9DH
+MOV R5, #0F9H
+MOV R6, #12
+
+ADD A, #23H
+
+CLR P1.7
+END
+

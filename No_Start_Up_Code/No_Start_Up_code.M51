@@ -1,15 +1,15 @@
-BL51 BANKED LINKER/LOCATER V6.22                                                        09/26/2023  15:08:26  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22                                                        09/27/2023  15:02:21  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
-C:\KEIL\C51\BIN\BL51.EXE just_code.obj TO No Start Up code
+C:\KEIL\C51\BIN\BL51.EXE just_code.obj TO No_Start_Up_code
 
 
 INPUT MODULES INCLUDED:
   just_code.obj (JUST_CODE)
 
 
-LINK MAP OF MODULE:  No Start Up code (JUST_CODE)
+LINK MAP OF MODULE:  No_Start_Up_code (JUST_CODE)
 
 
             TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
@@ -23,7 +23,7 @@ LINK MAP OF MODULE:  No Start Up code (JUST_CODE)
 
 
 
-SYMBOL TABLE OF MODULE:  No Start Up code (JUST_CODE)
+SYMBOL TABLE OF MODULE:  No_Start_Up_code (JUST_CODE)
 
   VALUE           TYPE          NAME
   ----------------------------------

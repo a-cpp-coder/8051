@@ -2,9 +2,9 @@
 *.LST
 *.OBJ
 
-**/*.plg
-**/*.LST
-**/*.OBJ
+**/No\ Startup\ Code/*.plg
+**/No\ Startup\ Code/*.LST
+**/**/*.OBJ
 
 
 #/*.plg
