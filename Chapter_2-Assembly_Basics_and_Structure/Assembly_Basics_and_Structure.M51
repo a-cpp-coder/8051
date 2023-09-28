@@ -1,15 +1,15 @@
-BL51 BANKED LINKER/LOCATER V6.22                                                        09/27/2023  16:05:25  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22                                                        09/28/2023  16:30:27  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
-C:\KEIL\C51\BIN\BL51.EXE 2-1_Sample_of_an_Assembly_program.obj TO Assembly_Basics_and_Structure
+C:\KEIL\C51\BIN\BL51.EXE 2-5_Banks_of_Registers_on_128_byte_RAM.obj TO Assembly_Basics_and_Structure
 
 
 INPUT MODULES INCLUDED:
-  2-1_Sample_of_an_Assembly_program.obj (2_1_SAMPLE_OF_AN_ASSEMBLY_PROGRAM)
+  2-5_Banks_of_Registers_on_128_byte_RAM.obj (2_5_BANKS_OF_REGISTERS_ON_128_BYTE_RAM)
 
 
-LINK MAP OF MODULE:  Assembly_Basics_and_Structure (2_1_SAMPLE_OF_AN_ASSEMBLY_PROGRAM)
+LINK MAP OF MODULE:  Assembly_Basics_and_Structure (2_5_BANKS_OF_REGISTERS_ON_128_BYTE_RAM)
 
 
             TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
@@ -23,19 +23,18 @@ LINK MAP OF MODULE:  Assembly_Basics_and_Structure (2_1_SAMPLE_OF_AN_ASSEMBLY_PR
 
 
 
-SYMBOL TABLE OF MODULE:  Assembly_Basics_and_Structure (2_1_SAMPLE_OF_AN_ASSEMBLY_PROGRAM)
+SYMBOL TABLE OF MODULE:  Assembly_Basics_and_Structure (2_5_BANKS_OF_REGISTERS_ON_128_BYTE_RAM)
 
   VALUE           TYPE          NAME
   ----------------------------------
 
-  -------         MODULE        2_1_SAMPLE_OF_AN_ASSEMBLY_PROGRAM
-  C:0000H         LINE#         2
-  C:0002H         LINE#         3
+  -------         MODULE        2_5_BANKS_OF_REGISTERS_ON_128_BYTE_RAM
+  C:0000H         LINE#         3
+  C:0002H         LINE#         4
   C:0004H         LINE#         5
   C:0006H         LINE#         6
-  C:0007H         LINE#         7
-  C:0008H         LINE#         9
-  -------         ENDMOD        2_1_SAMPLE_OF_AN_ASSEMBLY_PROGRAM
+  C:0008H         LINE#         7
+  -------         ENDMOD        2_5_BANKS_OF_REGISTERS_ON_128_BYTE_RAM
 
 Program Size: data=8.0 xdata=0 code=10
 LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
