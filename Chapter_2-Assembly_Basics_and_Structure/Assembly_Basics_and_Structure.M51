@@ -1,15 +1,15 @@
-BL51 BANKED LINKER/LOCATER V6.22                                                        09/28/2023  16:30:27  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22                                                        09/29/2023  13:51:30  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
-C:\KEIL\C51\BIN\BL51.EXE 2-5_Banks_of_Registers_on_128_byte_RAM.obj TO Assembly_Basics_and_Structure
+C:\KEIL\C51\BIN\BL51.EXE 2-7_using_the_register_bank_3.obj TO Assembly_Basics_and_Structure
 
 
 INPUT MODULES INCLUDED:
-  2-5_Banks_of_Registers_on_128_byte_RAM.obj (2_5_BANKS_OF_REGISTERS_ON_128_BYTE_RAM)
+  2-7_using_the_register_bank_3.obj (2_7_USING_THE_REGISTER_BANK_3)
 
 
-LINK MAP OF MODULE:  Assembly_Basics_and_Structure (2_5_BANKS_OF_REGISTERS_ON_128_BYTE_RAM)
+LINK MAP OF MODULE:  Assembly_Basics_and_Structure (2_7_USING_THE_REGISTER_BANK_3)
 
 
             TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
@@ -19,22 +19,25 @@ LINK MAP OF MODULE:  Assembly_Basics_and_Structure (2_5_BANKS_OF_REGISTERS_ON_12
             REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
 
             * * * * * * *   C O D E   M E M O R Y   * * * * * * *
-            CODE    0000H     000AH     ABSOLUTE     
+            CODE    0000H     000EH     ABSOLUTE     
 
 
 
-SYMBOL TABLE OF MODULE:  Assembly_Basics_and_Structure (2_5_BANKS_OF_REGISTERS_ON_128_BYTE_RAM)
+SYMBOL TABLE OF MODULE:  Assembly_Basics_and_Structure (2_7_USING_THE_REGISTER_BANK_3)
 
   VALUE           TYPE          NAME
   ----------------------------------
 
-  -------         MODULE        2_5_BANKS_OF_REGISTERS_ON_128_BYTE_RAM
+  -------         MODULE        2_7_USING_THE_REGISTER_BANK_3
+  D:00D0H         SYMBOL        PSW
   C:0000H         LINE#         3
   C:0002H         LINE#         4
   C:0004H         LINE#         5
   C:0006H         LINE#         6
   C:0008H         LINE#         7
-  -------         ENDMOD        2_5_BANKS_OF_REGISTERS_ON_128_BYTE_RAM
+  C:000AH         LINE#         8
+  C:000CH         LINE#         9
+  -------         ENDMOD        2_7_USING_THE_REGISTER_BANK_3
 
-Program Size: data=8.0 xdata=0 code=10
+Program Size: data=8.0 xdata=0 code=14
 LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
