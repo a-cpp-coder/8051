@@ -1,15 +1,15 @@
-BL51 BANKED LINKER/LOCATER V6.22                                                        09/29/2023  13:51:30  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22                                                        10/02/2023  00:01:11  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
-C:\KEIL\C51\BIN\BL51.EXE 2-7_using_the_register_bank_3.obj TO Assembly_Basics_and_Structure
+C:\KEIL\C51\BIN\BL51.EXE .\3-1_a_Loop_with_conditional_Jump.obj TO Assembly_Basics_and_Structure
 
 
 INPUT MODULES INCLUDED:
-  2-7_using_the_register_bank_3.obj (2_7_USING_THE_REGISTER_BANK_3)
+  .\3-1_a_Loop_with_conditional_Jump.obj (3_1_A_LOOP_WITH_CONDITIONAL_JUMP)
 
 
-LINK MAP OF MODULE:  Assembly_Basics_and_Structure (2_7_USING_THE_REGISTER_BANK_3)
+LINK MAP OF MODULE:  Assembly_Basics_and_Structure (3_1_A_LOOP_WITH_CONDITIONAL_JUMP)
 
 
             TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
@@ -19,25 +19,23 @@ LINK MAP OF MODULE:  Assembly_Basics_and_Structure (2_7_USING_THE_REGISTER_BANK_
             REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
 
             * * * * * * *   C O D E   M E M O R Y   * * * * * * *
-            CODE    0000H     000EH     ABSOLUTE     
+            CODE    0000H     0009H     ABSOLUTE     
 
 
 
-SYMBOL TABLE OF MODULE:  Assembly_Basics_and_Structure (2_7_USING_THE_REGISTER_BANK_3)
+SYMBOL TABLE OF MODULE:  Assembly_Basics_and_Structure (3_1_A_LOOP_WITH_CONDITIONAL_JUMP)
 
   VALUE           TYPE          NAME
   ----------------------------------
 
-  -------         MODULE        2_7_USING_THE_REGISTER_BANK_3
-  D:00D0H         SYMBOL        PSW
-  C:0000H         LINE#         3
-  C:0002H         LINE#         4
-  C:0004H         LINE#         5
-  C:0006H         LINE#         6
-  C:0008H         LINE#         7
-  C:000AH         LINE#         8
-  C:000CH         LINE#         9
-  -------         ENDMOD        2_7_USING_THE_REGISTER_BANK_3
+  -------         MODULE        3_1_A_LOOP_WITH_CONDITIONAL_JUMP
+  C:0004H         SYMBOL        AGAIN
+  C:0000H         LINE#         4
+  C:0002H         LINE#         5
+  C:0004H         LINE#         6
+  C:0006H         LINE#         7
+  C:0008H         LINE#         8
+  -------         ENDMOD        3_1_A_LOOP_WITH_CONDITIONAL_JUMP
 
-Program Size: data=8.0 xdata=0 code=14
+Program Size: data=8.0 xdata=0 code=9
 LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
