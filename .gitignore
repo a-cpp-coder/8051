@@ -1,13 +1,19 @@
 *.plg
 *.LST
 *.OBJ
+*.M51
+*.lnp
+*.uvmpw
 
+**/*.uvmpw
 **/*.plg
 **/*.LST
 **/*.OBJ
 **/*.lnp
 **/*.M51
 **/*.uvproj
+**/*.uvopt
+**/*.bak
 
 
 #/*.plg
